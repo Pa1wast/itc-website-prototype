@@ -1,0 +1,13 @@
+.grid-wrapper {
+	display: grid;
+	height: 100vh;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+
+	& > * {
+		background-color: rgba($color-primary, 0.7);
+		border: $bd-sm solid $color-primary-light;
+		padding: 1rem;
+		font-size: $fs-md;
+	}
+}
