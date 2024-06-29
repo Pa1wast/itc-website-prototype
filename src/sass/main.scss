@@ -1,9 +1,10 @@
-@use 'utilities/variables';
-@use 'utilities/functions';
-@use 'utilities/mixins';
-@use 'utilities/helpers';
+@import 'utilities/variables';
+@import 'utilities/functions';
+@import 'utilities/mixins';
+@import 'utilities/helpers';
 
-@use 'base/base';
-@use 'base/reset';
-@use 'base/typography';
-@use 'base/media-queries';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/reset';
+@import 'base/media-queries';
+@import 'base/animations';
