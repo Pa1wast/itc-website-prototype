@@ -1,0 +1,23 @@
+$clr-bg-primary: #000;
+$clr-bg-secondary: #373A40;
+$clr-bg-tertiary: #686D76;
+$clr-bg-light: 6D6D6D;
+
+$clr-text-dark: #373A40;
+$clr-text-light: #E4E4E4;
+
+$clr-primary: #3E64FF;
+$clr-primary-light: #69A5FF;
+$clr-secondary: #FF204E;
+$clr-secondary-light: #FF4773;
+
+$clr-vibrant-1: #00E0FF;
+$clr-vibrant-2: #03B3FF;
+$clr-vibrant-3: #00F5FF;
+$clr-vibrant-4: #DB00FF;
+$clr-vibrant-5: #FA00FF;
+$clr-vibrant-6: #FF00A8;
+$clr-vibrant-7: #FF204E;
+
+$ff-primary: 'Teko', sans-serif;
+$ff-secondary: 'Strait', sans-serif;
