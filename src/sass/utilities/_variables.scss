@@ -13,13 +13,18 @@ $color-primary-light: #69a5ff;
 $color-secondary: #ff204e;
 $color-secondary-light: #ff4773;
 
-$color-vibrant-1: #00e0ff;
-$color-vibrant-2: #03b3ff;
-$color-vibrant-3: #00f5ff;
-$color-vibrant-4: #db00ff;
-$color-vibrant-5: #fa00ff;
-$color-vibrant-6: #ff00a8;
-$color-vibrant-7: #ff204e;
+$color-vibrant-1: #29ff03;
+$color-vibrant-2: #6fff56;
+$color-vibrant-3: #56ffa8;
+$color-vibrant-4: #00ffc3;
+$color-vibrant-5: #00ffee;
+$color-vibrant-6: #0091ff;
+$color-vibrant-7: #3c00ff;
+$color-vibrant-8: #666eff;
+$color-vibrant-9: #6a00ff;
+$color-vibrant-10: #9500ff;
+$color-vibrant-11: #ff00e1;
+$color-vibrant-12: #ff0059;
 
 // TYPOGRAPHY
 
@@ -29,6 +34,12 @@ $ff-secondary: 'Teko', sans-serif;
 $fs-sm: 1.2rem;
 $fs-md: 1.5rem;
 $fs-lg: 1.8rem;
+
+$fw-light: 300;
+$fw-medium: 400;
+$fw-semi-bold: 500;
+$fw-bold: 600;
+$fw-extra-bold: 700;
 
 // CONTAINER SIZES
 
@@ -44,3 +55,11 @@ $bd-lg: 4px;
 $bd-radius-sm: 2px;
 $bd-radius-md: 3.5px;
 $bd-radius-lg: 5px;
+
+// CUSTOME PROPERTIES
+
+@property --gradient-angle {
+	syntax: '<angle>';
+	initial-value: 0deg;
+	inherits: false;
+}

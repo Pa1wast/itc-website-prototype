@@ -1,0 +1,43 @@
+.gradient {
+	border-radius: $bd-radius-md;
+	align-self: center;
+	background: conic-gradient(
+		from var(--gradient-angle),
+		$color-vibrant-1,
+		$color-vibrant-2,
+		$color-vibrant-3,
+		$color-vibrant-4,
+		$color-vibrant-5,
+		$color-vibrant-6,
+		$color-vibrant-7,
+		$color-vibrant-8,
+		$color-vibrant-9,
+		$color-vibrant-10,
+		$color-vibrant-11,
+		$color-vibrant-12,
+		$color-vibrant-1
+	);
+	padding-inline: 0.11rem;
+	padding-block: 0.1rem 0.11rem;
+
+	animation: gradient-rotation 5s linear infinite;
+	animation-duration: alternate;
+
+	&__button {
+		align-self: center;
+		width: max-content;
+		padding: 0.5rem 1.25rem;
+		border: none;
+		border-radius: $bd-radius-md;
+		background: $color-bg-primary;
+		color: $color-text-light;
+		font-size: $fs-md;
+		text-transform: uppercase;
+		transition: background 0.2s ease-in-out;
+		cursor: pointer;
+
+		&:hover {
+			background: $color-bg-tertiary;
+		}
+	}
+}
