@@ -37,11 +37,9 @@
 						type="text"
 						placeholder="Search..."
 					/>
-					<img
-						src="../assets/images/search-icon.svg"
-						alt="Search icon"
-						class="navbar__search-icon"
-					/>
+					<div class="navbar__search-icon-wrapper">
+						<ion-icon name="search-outline"></ion-icon>
+					</div>
 				</div>
 
 				<ul class="navbar__list">
@@ -97,10 +95,23 @@
 			</header>
 
 			<!-- MAIN -->
-			<main class="main-content"></main>
+			<main class="main-content">
+				<div class="card">Card 1</div>
+				<div class="card">Card 2</div>
+				<div class="card">Card 3</div>
+				<ion-icon name="logo-css3"></ion-icon>
+			</main>
 
 			<!-- FOOTER -->
 			<div class="footer">Footer</div>
 		</div>
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+		></script>
 	</body>
 </html>
