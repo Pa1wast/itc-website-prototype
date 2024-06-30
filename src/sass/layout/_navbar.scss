@@ -1,6 +1,7 @@
 .navbar {
 	grid-column: start / end;
 
+	max-height: $nav-max-height;
 	display: flex;
 	justify-content: space-between;
 	padding-inline: 3.2rem;
@@ -71,7 +72,7 @@
 	}
 
 	&__list {
-		flex: 0 1 40%;
+		flex: 0 0 45%;
 		list-style: none;
 		display: flex;
 		align-items: center;
