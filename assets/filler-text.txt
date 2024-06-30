@@ -1,0 +1,14 @@
+Heading Texts
+
+    heading-1
+
+		Your software & Tech problems, our solutions!
+			
+paragraph Texts
+
+    paragraph-1
+			
+        Iraqi Tech Club is an aspiring organization aiming to
+		partake in the software and tech industry with its
+		innovative solutions.
+				
