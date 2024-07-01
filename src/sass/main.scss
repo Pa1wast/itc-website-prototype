@@ -9,10 +9,11 @@
 @import 'base/media-queries';
 @import 'base/animations';
 
-@import 'layout/grid';
 @import 'layout/navbar';
 @import 'layout/header';
-@import 'layout/main-content';
 @import 'layout/footer';
 
 @import 'components/button';
+@import 'components/card';
+
+@import 'pages/service';

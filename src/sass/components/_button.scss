@@ -1,3 +1,67 @@
+.button-link {
+	display: flex;
+	align-items: center;
+	font-size: $fs-lg;
+	color: $color-primary;
+	background: none;
+	border: none;
+	transition: color 200ms;
+	position: relative;
+	cursor: pointer;
+
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: -3px;
+		left: 0;
+		width: 0;
+		height: 2px;
+		border-radius: 5px;
+		background-color: currentColor;
+		transition: width 200ms;
+	}
+
+	&:hover {
+		color: $color-primary-light;
+	}
+
+	&:active {
+		color: rgba($color-primary-light, 0.4);
+	}
+
+	&:hover::after {
+		width: 96%;
+	}
+
+	&__icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: transform 200ms;
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 50%;
+			transform: translate(-25%, -60%);
+			width: 0;
+			height: 2px;
+			border-radius: 5px;
+			background-color: currentColor;
+			transition: width 200ms;
+		}
+	}
+
+	&:hover &__icon {
+		transform: translateX(6px);
+	}
+
+	&:hover &__icon:before {
+		width: 70%;
+	}
+}
+
 .button-gradient {
 	align-self: center;
 	width: max-content;

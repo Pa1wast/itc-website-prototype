@@ -2,8 +2,27 @@
 	font-size: 7rem;
 }
 
+.heading-2 {
+	font-size: 5rem;
+}
+.heading-3 {
+	font-size: 3rem;
+}
+
 .paragraph-1 {
-	font-size: $fs-md;
+	font-size: $fs-lg;
 	font-weight: 300;
 	line-height: 1.6;
+}
+
+.paragraph-2 {
+	font-size: $fs-md;
+	font-weight: 500;
+	line-height: 1.4;
+}
+
+.paragraph-2 {
+	font-size: $fs-sm;
+	font-weight: 600;
+	line-height: 1.3;
 }

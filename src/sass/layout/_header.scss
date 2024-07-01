@@ -1,11 +1,12 @@
 .header {
 	grid-column: start/end;
-	display: grid;
 
+	display: grid;
 	height: calc($header-height - $nav-max-height);
 	grid-template-columns: [start text-start] min-content [text-middle] 1fr [text-end img-start] 1fr [img-middle] min-content [img-end end];
 	grid-template-rows: [start heading-start] min-content [heading-end paragraph-start] min-content [paragraph end];
 	padding: 10vh;
+	margin-bottom: $section-gap;
 
 	&__heading,
 	&__paragraph {

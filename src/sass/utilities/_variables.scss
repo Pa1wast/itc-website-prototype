@@ -43,8 +43,12 @@ $fw-extra-bold: 700;
 
 // CONTAINER SIZES
 
-$nav-max-height: 12vh;
+$nav-max-height: 10vh;
 $header-height: 100vh;
+
+// SPACING
+
+$section-gap: 15rem;
 
 // BORDERS
 
@@ -56,7 +60,9 @@ $bd-radius-sm: 2px;
 $bd-radius-md: 3.5px;
 $bd-radius-lg: 5px;
 
-// CUSTOME PROPERTIES
+$bd-radius-card: 15px;
+
+// CSS CUSTOME PROPERTIES
 
 @property --gradient-angle {
 	syntax: '<angle>';

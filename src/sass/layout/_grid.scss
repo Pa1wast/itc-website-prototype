@@ -1,6 +1,0 @@
-.grid-wrapper {
-	display: grid;
-	height: 100vh;
-	grid-template-columns: [start] 1fr repeat(8, [col-start] 1fr [col-end]) 1fr [end];
-	grid-template-rows: [start] min-content [end];
-}
