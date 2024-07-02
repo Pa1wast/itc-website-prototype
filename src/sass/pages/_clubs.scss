@@ -1,0 +1,98 @@
+.clubs-section {
+	height: 110vh;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(255, 255, 255, 0) 80%,
+			rgba($color-bg-primary, 1) 100%
+		),
+		linear-gradient(
+			to top,
+			rgba(255, 255, 255, 0) 80%,
+			rgba($color-bg-primary, 1) 100%
+		),
+		url('../../assets/images/bg-3.jpg');
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 2rem;
+	padding: 5rem;
+
+	&__card {
+		border: 0.5px solid rgba($color-primary-light, 0.4);
+		display: flex;
+		flex-direction: column;
+
+		&--span-2-rows {
+			grid-row: span 2;
+		}
+
+		&--1 {
+			display: flex;
+			flex-direction: column;
+			padding: 3rem;
+
+			&__inner-wrapper {
+				flex: 1;
+
+				position: relative;
+
+				&--line {
+					&::after {
+						content: '';
+						position: absolute;
+						top: 10px;
+						left: 3.75px;
+						width: 2.5px;
+						height: 100%;
+						border-radius: inherit;
+						background-color: rgba($color-primary-light, 0.4);
+						z-index: -1;
+					}
+				}
+
+				p {
+					margin-left: 3rem;
+					margin-top: 2rem;
+					margin-bottom: minmax(6rem, 10%);
+
+					color: rgba($color-text-light, 0.8);
+				}
+			}
+
+			&__heading {
+				flex: 1;
+
+				display: flex;
+				align-items: center;
+			}
+
+			&__indicator {
+				width: 1rem;
+				aspect-ratio: 1;
+				border-radius: 50%;
+				background-color: $color-primary-light;
+				position: relative;
+				margin-right: 2rem;
+
+				&::before {
+					content: '';
+					position: absolute;
+					inset: 20%;
+					border-radius: inherit;
+					background-color: $color-bg-primary;
+				}
+			}
+
+			&__button {
+				padding-top: 1rem;
+				align-self: flex-start;
+
+				margin-left: 3rem;
+			}
+		}
+	}
+}
