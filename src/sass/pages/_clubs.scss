@@ -25,6 +25,12 @@
 		border: 0.5px solid rgba($color-primary-light, 0.4);
 		display: flex;
 		flex-direction: column;
+		padding: 3rem;
+
+		p {
+			margin-top: 2rem;
+			color: rgba($color-text-light, 0.8);
+		}
 
 		&--span-2-rows {
 			grid-row: span 2;
@@ -33,7 +39,6 @@
 		&--1 {
 			display: flex;
 			flex-direction: column;
-			padding: 3rem;
 
 			&__inner-wrapper {
 				flex: 1;
